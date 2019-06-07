@@ -24,7 +24,7 @@ $message = $_POST['user_msg'];
 
     //Recipients
     $mail->setFrom('lllelouch1997@mail.ru');
-    $mail->addAddress('dana_10_97@mail.ru');     // Add a recipient
+    $mail->addAddress('saulecosmeticd@gmail.com');     // Add a recipient
 
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Заявка с сайта';
