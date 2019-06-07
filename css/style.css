@@ -1,0 +1,331 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.list a{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+.left{
+    padding-top: 100px;
+}
+.left p{
+    text-align: center;
+}
+.text1{
+    color:#fff; 
+    font-size: 18px;
+}
+.zag{
+    color: #fff;
+    font-size: 28px; 
+    text-align: center;
+}
+.text2{
+    color: #fff;
+    font-size: 20px; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+.list a:hover{
+    text-decoration: none;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.dress{
+	font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    color: black;
+}
+.dress:hover{
+    text-decoration: none;
+    color: black;
+}
+.phone p{
+    font-size: 24px;
+}
+.cont{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.next{
+    background-image: url('../img/cosmetologist.jpg');
+    background-size: cover;
+    padding-bottom: 200px;
+}
+.button{
+	text-decoration: none;
+	border: 2px solid #ef1356;
+	background: #ef1356;
+	color: white;
+	font-size: 18px;
+	padding: 7px 15px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.button:hover{
+	padding: 7px 15px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    text-decoration: none;
+    color: #fff;
+}
+
+.butt{
+	text-align: center;
+}
+.popup-text{
+	line-height: 60px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.overlay_popup{
+	display: none;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.5;
+}
+#popup1{
+	display: none;
+	z-index: 1000;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 40px;
+	box-sizing: border-box;
+	background-color: #ef1356;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 10px;
+}
+#popup2{
+	display: none;
+	z-index: 1000;
+	position: absolute;
+	left: 50%;
+	top: 2000px;
+	transform: translate(-50%, -50%);
+	padding: 40px;
+	box-sizing: border-box;
+	background-color: #ef1356;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 10px;
+}
+.close-popup{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+}
+.close-popup:before{
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	left: -4px;
+	transform: rotate(-45deg);
+}
+.close-popup:after{
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	left: -4px;
+	transform: rotate(45deg);
+}
+.popup-input{
+	padding: 10px;
+	margin: 2px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+}
+.butt-on{
+	text-align: center;
+}
+.form-popup2{
+	margin: 0 auto;
+}
+.popup-input:hover{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+.popup-btn{
+	font-size: 11px;
+	padding: 10px 60px;
+	border: 2px solid #fff;
+	background: #fff;
+	border-radius: 5px;
+	color: #ef1356;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.o{
+	border: 5px solid rgb(129, 199, 132);
+	border-radius: 100%;
+	padding: 20px;
+	text-align: center;
+	margin: 0 100px 0 100px;
+	margin-top: 30px;
+}
+.o p{
+	font-size: 45px;
+	font-weight: 700;
+}
+.prichin{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+.items{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.preim{
+	text-align: center;
+	font-size: 18px;
+	padding: 20px;
+}
+.bg-img-1{
+	background:url('../img/cosmetology.jpg');
+	background-size: cover;
+}
+.bg-img-2{
+	background:url('../img/comet.jpg');
+	background-size: cover;
+}
+.bg-img-3{
+	background:url('../img/dreamstimefree_1425398.jpg');
+	background-size: cover;
+}
+.bg-img-4{
+	background:url('../img/skin.jpg');
+	background-size: cover;
+}
+.bg-img-5{
+	background:url('../img/cosmetologist-640x230.jpg');
+	background-size: cover;
+}
+.bg-img-6{
+	background:url('../img/dreamstimefree_4576170.jpg');
+	background-size: cover;
+}
+.slider div{
+	padding-bottom: 300px;
+	margin:0 10px;
+	margin-bottom: -290px;
+}
+.slider-div{
+	margin-bottom: 340px;
+}
+.class{
+	padding-bottom: 40px;
+}
+.ml ul{
+	margin-left: 30px;
+}
+.ml ul li {
+	list-style-type: none; /* Убираем маркеры у списка */
+	font-size: 16px;
+   }
+   .ml ul li span{
+    margin-right: 15px;
+   }
+.fa-check {
+	color: rgb(129, 199, 132);
+}
+.technology img{
+	width: 100%;
+}
+.technology{
+	padding-top: 50px;
+}
+.ots{
+	padding-bottom: 50px;
+}
+.techno{
+	padding-bottom: 50px;
+	display: flex;
+	align-items: center;
+}
+.pocket-name{
+	background: rgb(129, 199, 132);
+	padding: 20px 0;
+	width: 100%;
+}
+.pocket-name .name{
+	font-size: 35px;
+	text-align: center;
+	font-weight: 500;
+	color: #fff;
+}
+.pocket-name .price{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 500;
+	color: #fff;
+}
+.pocket-body ul li{
+	list-style: none;
+	text-align: center;
+	font-size: 18px;
+}
+.pocket-body ul li span{
+    margin-right: 15px;
+   }
+.pocket-body ul{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.pocket{
+	padding-top: 50px;
+}
+.pric{
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 15px;
+}
+.quiz{
+	background: rgb(129, 199, 132);
+	padding: 30px 0;
+}
+.adress{
+	padding-bottom: 30px;
+}
