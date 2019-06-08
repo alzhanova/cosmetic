@@ -12,7 +12,6 @@ $mail->CharSet = 'utf-8';
 
 $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
-$message = $_POST['user_msg'];
 
     $mail->isSMTP();
     $mail->Host = 'smtp.mail.ru';
@@ -28,7 +27,7 @@ $message = $_POST['user_msg'];
 
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Заявка с сайта';
-    $mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone . ' его сообщение: ' .$message;
+    $mail->Body    = '' .$name . ' оставил заявку, его номер ' .$phone;
     $mail->AltBody = '';
 
     if(!$mail->send()){
