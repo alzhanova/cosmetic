@@ -14,11 +14,17 @@ a{
     font-size: 18px;
     font-weight: 700;
 }
+.list a:hover{
+	color: rgb(129, 199, 132);
+}
 main{
 	margin-top: 10px;
 }
 .left{
     padding-top: 100px;
+}
+.frac{
+	padding-top: 50px;
 }
 .left p{
     text-align: center;
@@ -366,7 +372,7 @@ video{
 	padding-top: 50px;
 }
 .ots{
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 }
 .techno{
 	padding-bottom: 50px;
@@ -476,6 +482,9 @@ h4{
 }
 }
 @media (min-width: 301px) and (max-width: 410px){
+	.proc-ul{
+		list-style: none;
+	}
 	#popup1{
 		display: none;
 		z-index: 1000;
@@ -496,6 +505,7 @@ h4{
 	}
 	.proc-p{
 		padding-top: 30px;
+		text-align: center;
 	}
 	.tech-h4{
 		font-size: 20px;
@@ -636,6 +646,7 @@ iframe{
 }
 .proc-p{
 	padding-top: 30px;
+	text-align: center;
 }
 .prichin{
 	font-size: 20px;
