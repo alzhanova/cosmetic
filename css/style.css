@@ -60,10 +60,28 @@ main{
     justify-content: space-between;
     list-style: none;
 }
+.price img{
+	width: 300px;
+	height: 250px;
+}
+.price p{
+	font-size: 15px;
+	text-align: center;
+}
 .dress{
 	font-family: 'Berkshire Swash', cursive;
     font-size: 30px;
     color: black;
+}
+.fa-envira{
+	color: rgb(129, 199, 132);
+}
+.kosmet{
+	font-family: 'Berkshire Swash', cursive;
+    font-size: 15px;
+	color: black;
+	margin-bottom: 0;
+	text-align: center;
 }
 .dress:hover{
     color: black;
@@ -104,7 +122,9 @@ main{
 	border-radius: 20px;
 	cursor: pointer;
 }
-
+.price{
+	padding-top: 30px;
+}
 .button:hover{
 	padding: 7px 15px;
 	box-shadow: 0 0 15px rgba(0,0,0,0.5);
@@ -220,6 +240,25 @@ main{
 	text-align: center;
 	font-weight: 700;
 }
+.vid-proc{
+	padding-top: 15px;
+	text-align: center;
+}
+.vid{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+video{
+	width: 80%;
+}
+.thnk{
+	text-align: center;
+	font-weight: 700;
+	font-size: 24px;
+	color: rgb(129, 199, 132);
+	margin-top: 50px;
+}
 .items{
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -230,27 +269,43 @@ main{
 	padding: 20px;
 }
 .bg-img-1{
-	background:url('../img/cosmetology.jpg');
+	background:url('../img/image.png');
 	background-size: cover;
+	background-position: center;
 }
 .bg-img-2{
-	background:url('../img/comet.jpg');
+	background:url('../img/image\ \(1\).png');
 	background-size: cover;
+	background-position: center;
 }
 .bg-img-3{
-	background:url('../img/dreamstimefree_1425398.jpg');
+	background:url('../img/image\ \(2\).png');
 	background-size: cover;
+	background-position: center;
 }
 .bg-img-4{
-	background:url('../img/skin.jpg');
+	background:url('../img/image\ \(3\).png');
 	background-size: cover;
+	background-position: center;
+}
+.thnk-h2{
+	font-weight: 600;
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+.thnk-h1{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 .bg-img-5{
-	background:url('../img/cosmetologist-640x230.jpg');
+	background:url('../img/WhatsApp\ Image\ 2019-06-10\ at\ 20.32.10.jpeg');
 	background-size: cover;
 }
+
 .bg-img-6{
-	background:url('../img/dreamstimefree_4576170.jpg');
+	background:url('../img/image\ \(4\).png');
 	background-size: cover;
 }
 .slider div{
@@ -260,6 +315,7 @@ main{
 }
 .slider-div{
 	margin-bottom: 340px;
+	margin-top: 30px;
 }
 .conta{
 	display: flex;
@@ -283,12 +339,29 @@ main{
    .ml ul li span{
     margin-right: 15px;
    }
+   .price span{
+    margin-right: 15px;
+   }
 .fa-check {
 	color: rgb(129, 199, 132);
+}
+.price p{
+	margin-top: 10px;
+}
+.fa-whatsapp{
+	color: #00E676;
+	font-size: 70px !important;
+}
+.web-wp{
+	top: 85%;
+	left: 85%;
+	position: fixed;
+	z-index: 5;
 }
 .technology img{
 	width: 100%;
 }
+
 .technology{
 	padding-top: 50px;
 }
@@ -338,6 +411,9 @@ main{
 	color: #fff;
 	padding-bottom: 15px;
 }
+.logoname{
+	margin-bottom: 0 !important;
+}
 .quiz{
 	background: rgb(129, 199, 132);
 	padding: 30px 0;
@@ -370,6 +446,9 @@ meta{
 		border: 3px solid #fff;
 		border-radius: 10px;
 	}
+	.mp{
+		margin: 0 75px;
+	}
 h4{
 	text-align: center;
 }
@@ -381,6 +460,7 @@ h4{
 }
 .logoname{
 	text-align: center;
+	
 }
 .dress{
 	font-size: 20px !important;
@@ -391,8 +471,11 @@ h4{
 .ml{
 	padding-top: 20px;
 }
+.left{
+	padding-top: 60px;
 }
-@media (min-width: 301px) and (max-width: 479px){
+}
+@media (min-width: 301px) and (max-width: 410px){
 	#popup1{
 		display: none;
 		z-index: 1000;
@@ -408,6 +491,101 @@ h4{
 		border: 3px solid #fff;
 		border-radius: 10px;
 	}
+	.vid{
+		width: 100%;
+	}
+	.proc-p{
+		padding-top: 30px;
+	}
+	.tech-h4{
+		font-size: 20px;
+	}
+	.ots{
+		padding-bottom: 30px;
+	}
+h4{
+	text-align: center;
+}
+.slider div{
+	padding-bottom: 300px;
+	margin-left:0;
+	margin-right: 0;
+	margin-bottom: -290px;
+}
+.mp{
+	margin: 0 75px;
+}
+.color{
+	margin-bottom: 30px;
+}
+.logoname{
+	text-align: center;
+}
+.dress{
+	font-size: 20px !important;
+}
+.next{
+	padding-bottom: 70px;
+}
+.price{
+	padding-top: 30px;
+}
+.techno{
+	text-align: center;
+}
+.ml{
+	padding-top: 20px;
+}
+.web-wp{
+	top: 85%;
+	left: 77%;
+	position: fixed;
+	z-index: 5;
+}
+iframe{
+	height: 300px;
+}
+.zag{
+	font-size: 25px;
+}
+.price img{
+	height: 220px;
+}
+.left{
+	padding-top: 50px;
+}
+.prichin{
+	font-size: 20px;
+}
+}
+@media (min-width: 411px) and (max-width: 479px){
+	.ots{
+		padding-bottom: 30px;
+	}
+	.slider div{
+		padding-bottom: 300px;
+		margin-left:0;
+		margin-right: 0;
+		margin-bottom: -290px;
+	}
+	#popup1{
+		display: none;
+		z-index: 1000;
+		width: 90%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -20%);
+		padding: 30px;
+		box-sizing: border-box;
+		background-color: #ef1356;
+		color: #fff;
+		border: 3px solid #fff;
+		border-radius: 10px;
+	}
+	.mp{
+		margin: 0 75px;
+	}
 h4{
 	text-align: center;
 }
@@ -421,7 +599,10 @@ h4{
 	font-size: 20px !important;
 }
 .next{
-	padding-bottom: 100px;
+	padding-bottom: 70px;
+}
+.price{
+	padding-top: 30px;
 }
 .techno{
 	text-align: center;
@@ -429,8 +610,44 @@ h4{
 .ml{
 	padding-top: 20px;
 }
+.web-wp{
+	top: 85%;
+	left: 77%;
+	position: fixed;
+	z-index: 5;
+}
+iframe{
+	height: 300px;
+}
+.zag{
+	font-size: 25px;
+}
+.list ul{
+	padding-top: 20px;
+}
+.price img{
+	height: 250px;
+}
+.left{
+	padding-top: 50px;
+}
+.vid{
+	width: 100%;
+}
+.proc-p{
+	padding-top: 30px;
+}
+.prichin{
+	font-size: 20px;
+}
 }
 @media (min-width: 480px) and (max-width: 639px){
+	.slider div{
+		padding-bottom: 300px;
+		margin-left:0;
+		margin-right: 0;
+		margin-bottom: -290px;
+	}
 	#popup1{
 		display: none;
 		z-index: 1000;
@@ -446,6 +663,9 @@ h4{
 		border: 3px solid #fff;
 		border-radius: 10px;
 	}
+	.mp{
+		margin: 0 55px;
+	}
 h4{
 	text-align: center;
 }
@@ -461,6 +681,9 @@ h4{
 .logoname{
 	text-align: center;
 }
+.prichin{
+	font-size: 20px;
+}
 .next{
 	padding-bottom: 100px;
 }
@@ -472,6 +695,9 @@ h4{
 	.logoname{
 		text-align: center;
 	}
+	.mp{
+		margin: 0 55px;
+	}
 }
 @media (min-width: 768px) and (max-width: 1000px){
 	.color{
@@ -479,6 +705,9 @@ h4{
 	}
 	.logoname{
 		text-align: center;
+	}
+	.mp{
+		margin: 0 45px;
 	}
 	.button{
 		text-decoration: none;
@@ -490,7 +719,9 @@ h4{
 		border-radius: 20px;
 		cursor: pointer;
 	}
-	
+	.numbers{
+		font-size: 10px;
+	}
 	.button:hover{
 		padding: 4px 9px;
 		box-shadow: 0 0 15px rgba(0,0,0,0.5);
@@ -499,6 +730,9 @@ h4{
 	}
 	.dress{
 		font-size: 20px;
+	}
+	.price img{
+		height: 150px;
 	}
 	.phone-a{
 		font-size: 18px;
@@ -510,4 +744,5 @@ h4{
 	.o {
 		margin: 0 50px 0 50px;
 	}
+
 }
